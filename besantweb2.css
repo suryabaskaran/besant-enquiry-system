@@ -1,0 +1,226 @@
+
+#marq{
+    background-color: #05445E;
+    color: bisque;
+    padding: 5px;
+}
+#marq a{ text-decoration: none;
+    color: red;
+
+}
+
+#two {
+    margin: 7px 0px 0px 0px;
+    display: grid;
+    grid-template-columns: 80% 20%;
+    background-color:#189AB4;
+    color: whitesmoke;
+    padding: 15px;
+
+}
+#email{
+    display: flex;
+    gap: 20px;
+}
+
+#email1:hover {
+    color: red;
+
+}
+#phn:hover {
+    color: red;
+
+}
+
+#logo {
+    position: relative;
+    right: -10px;
+    top: 17px;
+   
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+#three {
+    
+    margin: 0px 0px;
+    display: grid;
+    grid-template-columns: 20% 70% 10%;
+    background-color: #75E6DA;
+   ;
+    padding: 10px;
+}
+#besanticon img{
+    position: absolute;
+    top:155px
+}
+
+/* #menu ul {
+    /* margin: 0px 80px 0px 0px; */
+
+
+#menu ul {
+    display: inline-flex;
+    list-style: none;
+
+}
+
+#menu ul li {
+
+    margin: 10px 0px 0px 0px;
+    padding: 10px 50px;
+    font-size: 25px;
+}
+
+#sry {
+    display: none
+}
+
+#menu ul li:hover #sry {
+    display: block;
+    position: absolute;
+    left: 685px;
+    background: #75E6DA;
+    
+   
+    margin-top: 10px;
+    margin-left: -10px;
+}
+
+#menu ul li:hover #sry ul {
+   
+    display: block;
+    margin: 7px;
+    padding: 10px;
+    text-decoration: none;
+    color: red;
+    
+}
+
+
+
+
+
+#enquiry button {
+    background-color: #050A30;
+    color: bisque;
+    font-size: 20px;
+    padding: 10px;
+    margin: 33px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px 7px ;
+}
+#front{
+color: #59981A;
+font-size: 25px;
+text-align: center;
+}
+#buttons{
+    text-align: center;
+    
+    
+}
+#buttons button{
+    background-color: #59981A;
+    border: none;
+    border-radius: 8px 8px;
+    padding: 15px;
+    font-size: 20px;
+
+}
+#buttons input{
+    background-color: #000C66;
+    border:none;
+    font-size: 20px;
+    color: antiquewhite;
+    padding: 12px;
+    border-radius: 8px 8px;
+}
+#whothis{
+
+font-size: 23px;
+border: 1px whitesmoke solid;
+box-sizing: border-box;
+box-shadow: 2px 2px 2px 2px;
+
+}
+#whothis h2{
+    text-align: center;
+    color: #59981A; ;
+}
+#whytake{
+
+    font-size: 23px;
+    border: 1px whitesmoke solid;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 2px 2px;
+    
+    }
+    #whytake h2{
+        text-align: center;
+        color: #59981A; ;
+    }
+    #whatyou{
+
+        font-size: 23px;
+        border: 1px whitesmoke solid;
+        box-sizing: border-box;
+        box-shadow: 2px 2px 2px 2px;
+        
+        }
+        #whatyou h2{
+            text-align: center;
+            color: #59981A; ;
+        }
+        #tenDA {
+            display: inline;
+            padding: 10px;
+        }
+        
+        #ten {
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            background-color: #68BBE3;
+        }
+        
+        #tenAB {
+            font-size: 20px;
+        }
+        .htmlhead{
+            background-color:#18A558 ;
+            color: black;
+            padding: 10px;
+        }
+        .htmlpara{
+           display: none;
+        }
+        #enquiryform{
+            position: absolute;
+            top:230px;
+            right: 30px;
+            border: 1px #D4F1F4 solid;
+            padding: 20px;
+            font-size: 23px;
+            text-align: center;
+            height: fit-content;
+            width: fit-content;
+            display: none;
+            background-color:#D4F1F4;
+            
+        }
+        
+        #enquiryform input{
+            font-size: 20px;
+        }
+        #enquiryform select{
+            font-size: 20px;
+        }
+        #room p{
+            display: inline-flex;
+            background-color: beige;
+        }
+        #close{
+            position: relative;
+            left: 200px;
+            cursor: pointer;
+        }

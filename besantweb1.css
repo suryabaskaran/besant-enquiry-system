@@ -1,0 +1,492 @@
+
+#marq{
+    background-color: #05445E;
+    color: bisque;
+    padding: 5px;
+}
+#marq a{ text-decoration: none;
+    color: red;
+
+}
+
+#two {
+    margin: 7px 0px 0px 0px;
+    display: grid;
+    grid-template-columns: 80% 20%;
+    background-color:#189AB4;
+    color: whitesmoke;
+    padding: 15px;
+
+}
+#email{
+    display: flex;
+    gap: 20px;
+}
+
+#email1:hover {
+    color: red;
+
+}
+#phn:hover {
+    color: red;
+
+}
+
+#logo {
+    position: relative;
+    right: -10px;
+    top: 17px;
+   
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+#three {
+    
+    margin: 0px 0px;
+    display: grid;
+    grid-template-columns: 20% 70% 10%;
+    background-color: #75E6DA;
+   ;
+    padding: 10px;
+}
+#besanticon img{
+    position: absolute;
+    top:155px
+}
+
+/* #menu ul {
+    /* margin: 0px 80px 0px 0px; */
+
+
+#menu ul {
+    display: inline-flex;
+    list-style: none;
+
+}
+
+#menu ul li {
+
+    margin: 10px 0px 0px 0px;
+    padding: 10px 50px;
+    font-size: 25px;
+}
+
+#sry {
+    display: none
+}
+
+#menu ul li:hover #sry {
+    display: block;
+    position: absolute;
+    left: 685px;
+    background: #75E6DA;
+    
+   
+    margin-top: 10px;
+    margin-left: -10px;
+}
+
+#menu ul li:hover #sry ul {
+   
+    display: block;
+    margin: 7px;
+    padding: 10px;
+}
+
+
+
+ul li:hover {
+    text-decoration: none;
+    color: red;
+    background-color: white;
+}
+
+#enquiry button {
+    background-color: #050A30;
+    color: bisque;
+    font-size: 20px;
+    padding: 10px;
+    margin: 33px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px 7px ;
+}
+#enquiry button:hover{
+    color: red;
+}
+
+
+
+
+
+#fourA {
+    position: absolute;
+    left: 90px;
+    top: 290px;
+    text-align: justify;
+}
+
+#fourB {
+    color: black;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+#fourC button {
+    background-color: #050A30;
+    color: antiquewhite;
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 8px 7px ;
+    border: none;
+
+}
+#btnA:hover{
+    color: red;
+}
+
+
+#key,#keytext {
+    text-align: center;
+}
+
+#key2 {
+    color: white;
+    display: grid;
+    margin: 10px 0px 0px 100px;
+    grid-template-columns: 20% 20% 20% 20%;
+    grid-gap: 50px;
+}
+#sixAC:hover{
+    background-color: antiquewhite;
+
+}
+#sixBB:hover{
+    background-color: antiquewhite;
+
+}
+#sixCB:hover{
+    background-color: antiquewhite;
+
+}
+#sixDB:hover{
+    background-color: antiquewhite;
+
+}
+#sixAC {
+    border: 1px #75E6DA solid;
+    border-radius: 8px 8px;
+    height: 240px;
+    text-align: center;
+    width: auto;
+    text-align: center;
+    color: black;
+    background-color: #75E6DA;
+    box-shadow: 3px 3px 3px 3px rgb(216, 199, 199);
+}
+
+#sixAB {
+    position: absolute;
+    left: 230px;
+    border: 10px whitesmoke solid;
+    border-radius: 30px;
+    height: fit-content;
+    width: fit-content;
+
+}
+
+#sixBB {
+   
+    border: 1px #75E6DA solid;
+    border-radius: 8px 8px;
+    width: auto;
+    height: 240px;
+    text-align: center;
+    color: black;
+    background-color:#75E6DA;
+    box-shadow: 3px 3px 3px 3px rgb(216, 199, 199);
+}
+
+#sixBA {
+    position: absolute;
+    left: 570px;
+    border: 10px whitesmoke solid;
+    border-radius: 30px;
+    height: fit-content;
+    width: fit-content;
+
+}
+
+#sixCB {
+    border: 1px #75E6DA solid;
+    
+    border-radius: 8px 8px;
+    height: 240px;
+
+    width: auto;
+    text-align: center;
+    color: black;
+
+    background-color: #75E6DA;
+    box-shadow: 3px 3px 3px 3px rgb(216, 199, 199);
+}
+
+#sixCA {
+    position: absolute;
+    right: 620px;
+    border: 10px whitesmoke solid;
+    border-radius: 30px;
+    height: fit-content;
+    width: fit-content;
+
+}
+
+#sixDB {
+    border: 1px #75E6DA solid;
+    border-radius: 8px 8px;
+    height: 240px;
+    width: auto;
+    text-align: center;
+    background-color: #75E6DA;
+    color: black;
+    box-shadow: 3px 3px 3px 3px rgb(216, 199, 199);
+}
+
+#sixDA {
+    position: absolute;
+    right: 275px;
+    border: 10px whitesmoke solid;
+    border-radius: 30px;
+    height: fit-content;
+    width: fit-content;
+
+}
+
+
+
+#course {
+    text-align: center;
+    font-size: 20px;
+}
+
+#eight,#nine {
+    margin: 10px 0px 00px 0px;
+    position: relative;
+    left: 130px;
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    grid-gap: 60px;
+    text-align: center;
+    color: black;
+}
+
+#eightA {
+    border: 1px white solid;
+    box-shadow: 3px 3px 3px 3px rgb(216, 199, 199);
+    height: 400px;
+}
+
+#eightB {
+    border: 1px whitesmoke solid;
+    box-shadow: 3px 3px 3px 3px rgb(216, 199, 199);
+}
+
+#eightC {
+    border: 1px whitesmoke  solid;
+    box-shadow: 3px 3px 3px 3px rgb(216, 199, 199);
+}
+
+#eightAA h2 {
+    background-color: #75E6DA ;
+    padding: 10px;
+    color: black;
+    margin: 22px;
+    
+    
+}
+#eightAB,#eightBB,#eightCB,#nineAB,#nineBB,#nineCB{
+    margin: 40px;
+}
+
+#eightBA h2{
+    background-color: #75E6DA ;
+    padding: 10px;
+    color: black;
+    margin: 22px;
+}
+
+#eightCA h2{
+    background-color:#75E6DA ;
+    padding: 10px;
+    color: black;
+    margin: 22px;
+}
+
+#eightAE button {
+    background-color:#75E6DA ;
+    border: none;
+    border-radius: 8px 8px;
+    padding: 10px;
+}
+
+#eightBE button {
+    background-color:#75E6DA ;
+    border: none;
+    border-radius: 8px 8px;
+    padding: 10px;
+}
+
+#eightCE button {
+    background-color: #75E6DA ;
+    border: none;
+    border-radius: 8px 8px;
+    padding: 10px;
+}
+
+
+
+#nineA {
+    border: 1px whitesmoke solid;
+    box-shadow: 3px 3px 3px 3px rgb(216, 199, 199);
+    height: 400px;
+}
+
+#nineB {
+    border: 1px whitesmoke solid;
+    box-shadow: 3px 3px 3px 3px rgb(216, 199, 199);
+}
+
+#nineC {
+    border: 1px whitesmoke solid;
+    box-shadow: 3px 3px 3px 3px rgb(216, 199, 199);
+}
+
+#nineAA h2{
+    background-color: #75E6DA ;
+    padding: 10px;
+    color: black;
+    margin: 22px;
+}
+
+#nineBA h2{
+    background-color:#75E6DA ;
+    padding: 10px;
+    color: black;
+    margin: 22px;
+}
+
+#nineCA h2{
+    background-color:#75E6DA ;
+    padding: 10px;
+    color: black;
+    margin: 22px;
+}
+
+#nineAE button {
+    background-color:#75E6DA ;
+    border: none;
+    border-radius: 8px 8px;
+    padding: 10px;
+}
+
+#nineBE button {
+    background-color:#75E6DA ;
+    border: none;
+    border-radius: 8px 8px;
+    padding: 10px;
+}
+
+#nineCE button {
+    background-color: #75E6DA ;
+    border: none;
+    border-radius: 8px 8px;
+    padding: 10px;
+}
+
+#tenDA {
+    display: inline;
+    padding: 10px;
+}
+
+#ten {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: #68BBE3;
+}
+
+#tenAB {
+    font-size: 20px;
+}
+
+h2 {
+    
+    font-size: 35px;
+}
+#enquiryform{
+    position: absolute;
+    top:230px;
+    right: 30px;
+    border: 1px #D4F1F4 solid;
+    padding: 20px;
+    font-size: 23px;
+    text-align: center;
+    height: fit-content;
+    width: fit-content;
+    display: none;
+    background-color:#D4F1F4;
+    
+}
+
+#enquiryform input{
+    font-size: 20px;
+}
+#enquiryform select{
+    font-size: 20px;
+}
+
+#room p{
+    display: inline-flex;
+    background-color: beige;
+}
+#close{
+    position: relative;
+    left: 200px;
+    cursor: pointer;
+}
+#applyonline{
+    position: absolute;
+    top: 270px;
+    left: 280px;
+    border: 1px #D4F1F4 solid;
+    padding: 30px;
+    font-size: 23px;
+    text-align: center;
+    height: fit-content;
+    width: fit-content;
+    display: none;
+    background-color:whitesmoke;
+    cursor: pointer;
+}
+#applyonline input{
+    border:none;
+    border-bottom: 1px black solid;
+    font-size: 25px;
+}
+#applyonline textarea{
+    border:none;
+    border-bottom: 1px black solid;
+    font-size: 25px;
+}
+#closeapply{
+    position: relative;
+    left: 150px;
+    cursor: pointer;
+}
+#applyonline button{
+    font-size: 25px;
+    background-color: blue;
+    color: whitesmoke;
+    border: none;
+    border-radius: 8px 8px;
+}
